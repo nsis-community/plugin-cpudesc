@@ -69,7 +69,7 @@ kernel32.lib user32.lib advapi32.lib /nologo /entry:"_DllMainCRTStartup" /dll /i
 
 */
 #include <windows.h>
-#include "../ExDLL/exdll.h"
+#include "exdll.h"
 
 /*****************************************/
 // Gets the MHz timing stored by Windows in the registry.   Returns 0 MHz if there's a problem reading the expected registry value.
