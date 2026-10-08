@@ -26,5 +26,6 @@ jobs:
           name: cpudesc
           sources: |
             Contrib/cpudesc/cpudesc.c
+          targets: x86-ansi,x86-unicode
           strict: false
           release: ${{ github.event_name == 'release' }}
